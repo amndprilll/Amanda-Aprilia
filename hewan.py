@@ -10,6 +10,7 @@ class hewan:
         print("Makanan kesehariannya adalah",self.makanan)
         print("Hidup hewan ini di",self.hidup)
         print("Berkembang biar dengan cara",self.berkembangBiak)
+        print("=====Badak=====")
         
 class badak(hewan):
     def __init__(self, nama, makanan, hidup, berkembangBiak,bergerak,bernafas):
@@ -24,6 +25,7 @@ class badak(hewan):
         print("Berkembang biak dengan cara",self.berkembangBiak)
         print("Cara bergerak dengan", self.bergerak)
         print("Bernafas menggunakan",self.bernafas)
+        print("=====Ikan=====")
         
     
 class ikan(hewan):
@@ -39,7 +41,8 @@ class ikan(hewan):
         print("Berkembang biak dengan cara",self.berkembangBiak)
         print("Cara bergerak dengan", self.bergerak)
         print("Bernafas menggunakan",self.bernafas)
-         
+        print("=====Ular=====")
+        
 class ular(hewan):
     def __init__(self, nama, makanan, hidup, berkembangBiak,bergerak,bernafas):
         super().__init__(nama, makanan, hidup, berkembangBiak)
